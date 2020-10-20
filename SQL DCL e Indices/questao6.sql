@@ -3,3 +3,7 @@
 --     tabela funcionário sem o salário (crie a visão). 
 --     Ele disso ele pode consultar as tabelas Atividade e AtividadeMembro e Projeto.
 
+CREATE USER 'empresa_supevisor'@'localhost' IDENTIFIED BY ‘186372526';
+
+CREATE VIEW FuncSemSalario AS SELECT codigo, nome, sexo, datanasc, supervisor, depto FROM Funcionario;
+
