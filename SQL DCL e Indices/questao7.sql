@@ -2,4 +2,4 @@
 --     e um índice para o atributo situação da tabela atividade.
 
 CREATE INDEX INDICE_SIGLA ON Departamento (sigla);
-CRATE INDEX INDICE_SITUACAO ON Atividade (situacao);
+CREATE INDEX INDICE_SITUACAO ON Atividade (situacao);
