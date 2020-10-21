@@ -13,4 +13,5 @@
 **Caicó – RN**  
 **2020**
 
+[Script de criação do Banco de Dados e Tabelas](https://github.com/tacianosilva/bsi-tasks/tree/master/bd/scripts/EquipesBD)
 
