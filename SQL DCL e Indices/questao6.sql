@@ -7,5 +7,5 @@ CREATE USER 'empresa_supevisor'@'localhost' IDENTIFIED BY ‘186372526';
 
 CREATE VIEW FuncSemSalario AS SELECT codigo, nome, sexo, datanasc, supervisor, depto FROM Funcionario;
 
-GRANT SELECT ON EmpresaDB.FuncSemSalario, EmpresDB.Atividade, EmpresDB.Atividade_membro, EmpresDB.Projeto TO 'empresa_supervisor'@'localhost';
+GRANT SELECT ON EmpresaDB.FuncSemSalario, EmpresaDB.Atividade, EmpresaDB.Atividade_membro, EmpresaDB.Projeto TO 'empresa_supervisor'@'localhost';
 
