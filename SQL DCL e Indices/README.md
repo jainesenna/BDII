@@ -8,7 +8,7 @@
 
 **Jaine de Senna Santos**
 
-## Lista de Exercícios - SQL DCL  e Índices
+## Resolução da Lista de Exercícios - SQL DCL  e Índices
 
 **Caicó – RN**  
 **2020**
