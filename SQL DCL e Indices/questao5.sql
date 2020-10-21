@@ -3,5 +3,5 @@
 --     Ele pode inserir e atualizar as tabelas Equipe, Membro, Atividade e AtividadeProjeto.
 
 CREATE USER 'empresa_gerente'@'localhost' IDENTIFIED BY 'kjhftdrrssi568';
-GRANT SELECT ON ALL TABLES IN ‘EmpresaDB’ TO 'empresa_gerente'@'localhost';
-GRANT INSERT, UPDATE (Equipe, Membro, Atividade, AtividadeProjeto) TO empresa_gerente;
+GRANT SELECT ON ALL TABLES IN SCHEMA TO 'empresa_gerente'@'localhost';
+GRANT INSERT, UPDATE (Equipe, Membro, Atividade, AtividadeProjeto) TO 'empresa_gerente'@'localhost';
