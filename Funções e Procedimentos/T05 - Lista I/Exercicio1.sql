@@ -1,8 +1,6 @@
 -- 1. Faça um função para calcular a idade do funcionário.
 
-DROP FUNCTION IF EXISTS idadeFunc cascade;
-
-CREATE FUNCTION idadeFunc(INTEGER)
+CREATE OR REPLACE FUNCTION idadeFunc(INTEGER)
 	RETURNS INTERVAL
 	AS $$
 
